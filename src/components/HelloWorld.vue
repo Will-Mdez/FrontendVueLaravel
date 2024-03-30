@@ -56,4 +56,37 @@ li {
 a {
   color: #42b983;
 }
+/* Table Structure */
+table {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+}
+
+thead {
+  background-color: #e5e5e5;
+  color: #333;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+/* Font Styles */
+table tr td,
+table tr th {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Button Styles */
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+}
+
 </style>
